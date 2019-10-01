@@ -16,7 +16,7 @@ namespace Prov_Modellering
         bool cursed;
         static Random generator = new Random();
 
-        public void NewBook(List<string> names, List<string> categories)
+        public void ConstructBook(List<string> names, List<string> categories)
         {
             //Checks length of lists and randomizes a name and category to give the new book.
             int namesLength = names.Count;
